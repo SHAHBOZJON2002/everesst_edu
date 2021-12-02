@@ -1,0 +1,356 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-section{
+    background-image: url('../img1/polni.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+}
+.container{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 12px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.header-left{
+
+}
+.header-right{
+
+}
+.header-right-list{
+    list-style-type: none;
+    display: flex;
+    
+}
+.header-right-list-item a { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.header-right-list-item .active{
+    text-decoration: underline;
+}
+.hero-text{
+    margin-bottom: 280px;
+
+}
+.hero-text-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+.hero-text-paragraph{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+.hero-text-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #52AADB;
+    border-radius: 8px; 
+    text-decoration: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.hero-arrow{
+    width: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 80px;
+
+}
+.course-section{
+    margin-bottom: 100px;
+
+}
+.course-section-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 88px;
+}
+.course-section-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 516px;
+    background: #F5F5F5;
+    box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px #C5C5C5;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 71px;
+    margin-bottom: 67px;
+    transition: 0.3s ease ;
+    
+
+}
+.card:hover{
+    background: #EAEAEA;
+    box-shadow:none;
+
+}
+.card-img{
+    margin-bottom: 40px;
+}
+.card-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+    margin-bottom: 26px;
+
+}
+.card-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    width: 393px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.techers-section{
+    margin-bottom: 100px;
+
+}
+.techers-section-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 53px;
+
+}
+.techers-section-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.techers-section-list-item{
+    text-align: center;
+
+}
+.item-img{
+
+    margin-bottom: 30px;
+    transition: 0.4s ease;
+}
+.item-img:hover{
+    filter: drop-shadow(-5px -5px 15px #FFFFFF) drop-shadow(5px 5px 15px rgba(135, 135, 135, 0.96));
+}
+.ustoz{
+    border-radius: 50%;
+    width: 240px;
+    transition: 0.4s ease;
+    margin-bottom: 30px;
+}
+.ustoz:hover{
+    filter: drop-shadow(-5px -5px 15px #FFFFFF) drop-shadow(5px 5px 15px rgba(135, 135, 135, 0.96));
+}
+.item-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 9px;
+
+}
+.item-info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    width: 191px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.lokatsiya-text{
+    text-align: center;
+    padding: 20px;
+    height: 70px;
+}
+.lokatsiya-img{
+    width: 100%;
+    display: flex;
+    transition: 0.4s ease;
+    font-style: normal;
+    margin-bottom: 110px;
+
+}
+.lokatsiya-img:hover{
+    filter: drop-shadow(-5px -5px 15px #FFFFFF) drop-shadow(5px 5px 15px rgba(135, 135, 135, 0.96));
+}
+.box{
+    margin-bottom: 30px;
+}
+.box-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.phone-namber {
+    text-decoration: none;
+    color: black;
+  }
+  .phone-namber:hover {
+    color: burlywood;
+  }
+
+  .footer{
+    
+    list-style-type: none;
+
+   }
+   .footer-inner{
+     padding-top: 113px;
+     padding-bottom: 113px;
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+
+   }
+   .footer-inner-row1{
+
+   }
+   .footer-inner-row1-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;  
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+
+
+   }
+   .footer-inner-row1-link-span{
+     font-style: normal;
+     font-weight: bold;
+     font-size: 26px;
+     line-height: 33px;
+     color: #5B9BF3;
+     width: 41px;
+     height: 41px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     margin-right: 12px; 
+    
+
+
+   }
+   .footer--inner-row1-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 391px;
+    margin-bottom: 18px;
+    
+
+   }
+   .footer-inner-row1-licsense{
+    margin-bottom: 18px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    }
+    .footer-inner-row2{
+        list-style-type: none;
+
+
+    }
+    .footer-inner-row2-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 60px;
+        margin-bottom: 2px;
+
+
+    }
+    .footer-inner-row2-list{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        list-style-type: none;
+
+    }
+    .footer-inner-row2-list-item{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 38px;
+        list-style-type: none;
+
+    }
+
